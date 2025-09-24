@@ -1,6 +1,6 @@
 name: "Hello World Action"
 description: "A simple GitHub Action that prints Hello World"
-author: "your-github-username"
+author: "johnkravin9-design"
 inputs:
   name:
     description: "Your name"
