@@ -1,0 +1,14 @@
+name: "Hello World Action"
+description: "A simple GitHub Action that prints Hello World"
+author: "your-github-username"
+inputs:
+  name:
+    description: "Your name"
+    required: false
+    default: "World"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "zap"
+  color: "blue"
