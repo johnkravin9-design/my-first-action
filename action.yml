@@ -1,14 +1,17 @@
-name: "Hello World Action"
-description: "A simple GitHub Action that prints Hello World"
+name: "My First Hello Action"
+description: "A simple GitHub Action that prints Hello <name>."
 author: "johnkravin9-design"
+
 inputs:
   name:
-    description: "Your name"
-    required: false
+    description: "The name to greet"
+    required: true
     default: "World"
+
 runs:
   using: "docker"
   image: "Dockerfile"
+
 branding:
   icon: "zap"
   color: "blue"
